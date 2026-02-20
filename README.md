@@ -4,7 +4,7 @@
 
 #### Token-Optimized Kit for LLMs
 
-**Tokit** is a high-performance compression library designed to reduce LLM payload sizes by **75-87%**. By combining intelligent key mapping with a compact encoding format, Tokit minimizes token usage in your prompts and API responses while preserving full data integrity.
+The Tokit package provides a high-performance payload compression engine. It reduces LLM payload sizes by **75-87%** through intelligent key mapping and compact encoding, significantly minimizing token usage in prompts and API responses while maintaining absolute data integrity.
 
 ## Key Benefits
 
@@ -166,11 +166,11 @@ try {
 
 ### Benchmarks
 
-| Data Size | Original | Compressed | Savings |
-| | -- | - | - |
-| 1KB | ~260 tokens | ~45 tokens | 82.7% |
-| 10KB | ~2,600 tokens | ~520 tokens | 80.0% |
-| 100KB | ~26,000 tokens | ~4,500 tokens | 82.7% |
+|Data Size|Original|Compressed|Savings|
+|:---|:---|:---|:---|
+|1KB|~260 tokens|~45 tokens|82.7%|
+|10KB|~2,600 tokens|~520 tokens|80.0%|
+|100KB|~26,000 tokens|~4,500 tokens|82.7%|
 
 ### Limitations
 
